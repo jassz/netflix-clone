@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import "./navbar.css"
 import NetflixLogo from '../../assets/svgs/netflix-icon.svg'
-// import ProfileIcon from '../../assets/svgs/profile-icon-4.svg'
 import routes from '../../utils/routes'
 import useWindowSize from '../../utils/hooks/useWindowSize';
 
@@ -35,7 +34,7 @@ function Navbar({selectedProfile}) {
 
             <div className='inner-container'>
                 <div style={{ color: '#fff', fontSize: 20 }} ><i className="fa fa-search" ></i></div>
-                <h5 style={{ paddingLeft: 16, color: '#fff' }}>{'Children'}</h5>
+                <h5 style={{ paddingLeft: 16, color: '#fff' }}>{selectedProfile.title}</h5>
                 <div style={{ color: '#fff', fontSize: 20, paddingLeft: 16 }} ><i className="fa fa-bell" ></i></div>
                 <img onClick={navigateToProfile} width={40} style={{ objectFit: 'contain', borderRadius: 6, marginLeft: 16 }} src={selectedProfile.asset} alt='profile' />
                 <div style={{ color: '#fff', fontSize: 20, paddingLeft: 16 }} ><i className="fa fa-caret-down" ></i></div>

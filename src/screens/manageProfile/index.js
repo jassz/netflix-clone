@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import routes from '../../utils/routes';
 import ProfileTile from '../../components/profileTile';
 import profiles from '../../utils/commonJson';
-import manageProfile from './index';
 
 
 export default function ManageProfile() {

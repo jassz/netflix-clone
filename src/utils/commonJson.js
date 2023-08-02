@@ -6,7 +6,7 @@ import ProfileIcon5 from "../assets/svgs/profile-icon-5.svg"
 
 const profiles = [
     {
-        name: "Aziz",
+        name: "Daddy",
         resource: ProfileIcon1
     },
     {
@@ -14,15 +14,15 @@ const profiles = [
         resource: ProfileIcon2
     },
     {
-        name: "Santosh",
+        name: "Mommy",
         resource: ProfileIcon3
     },
     {
-        name: "Aaleen",
+        name: "Bros",
         resource: ProfileIcon4
     },
     {
-        name: "Shub's",
+        name: "Baby",
         resource: ProfileIcon5
     }
 ]

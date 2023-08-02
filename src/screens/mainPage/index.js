@@ -14,6 +14,7 @@ export default function MainPage() {
       // retreiving selectedProfile to highlight profile icon in navbar
       const selectedProfile = await localStorage.getItem('selectedProfile');
       setSelectedProfile(JSON.parse(selectedProfile));
+      console.log(selectedProfile);
     };
     getSelectedProfile();
 
